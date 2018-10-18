@@ -15,7 +15,7 @@ def print_ticket_button(showName)
 		ticketLink = "https://thelastcomedyshow.eventbrite.com"
 	end
 
-	return '<div class=\"eventbrite\"><a href=\"'+ticketLink+'\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://i.imgur.com/0eV8t0o.png\" /><\/a><\/div><div class=\"price\">$10 online / $12 at the door<\/div>'
+	return '<div class=\"eventbrite\"><a href=\"'+ticketLink+'\"><img alt=\"Buy Tickets on Eventbrite\" src=\"https://i.imgur.com/Je0ETgm.png\" /><\/a><\/div><div class=\"price\">$10 online / $12 at the door<\/div>'
 
 end
 

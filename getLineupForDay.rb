@@ -26,9 +26,6 @@ lineups = []
 
 worksheet.rows.each { |row| 
 
-	puts nextdate
-	puts row.first(1)[0].to_s
-
 	if (nextdate==row.first(1)[0].to_s)
 		comedians = [];
 	

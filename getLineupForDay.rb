@@ -26,9 +26,12 @@ lineups = []
 
 worksheet.rows.each { |row| 
 
+	puts nextdate
+	puts row.first(1)[0].to_s
+
 	if (nextdate==row.first(1)[0].to_s)
 		comedians = [];
-		
+	
 		row.drop(6).each { |comedian|
 			if (!comedian.empty?)
 				comedians.push(comedian.sub(/\(.*\)/, '').strip)

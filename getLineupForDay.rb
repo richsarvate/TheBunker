@@ -14,7 +14,7 @@ session =  GoogleDrive::Session.from_config("config.json")
 
 
 # Get the spreadsheet by its title
-spreadsheet = session.spreadsheet_by_title("Comedy Bunker Info")
+spreadsheet = session.spreadsheet_by_title("The Bunker Info")
 
 # Get the first worksheet
 worksheet = spreadsheet.worksheet_by_title("Booking")
